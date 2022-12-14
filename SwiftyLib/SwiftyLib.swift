@@ -6,7 +6,9 @@
 //
 
 import Foundation
-public class SwiftyLib {
+open class SwiftyLib {
+    
+    public static let shared = SwiftyLib()
 
     let name = "SwiftyLib"
     
