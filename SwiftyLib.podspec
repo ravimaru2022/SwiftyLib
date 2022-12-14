@@ -4,9 +4,7 @@ Pod::Spec.new do |spec|
   spec.version      = "1.0.1"
   spec.summary      = "A CocoaPods library written in Swift"
 
-  spec.description  = <<-DESC
-This CocoaPods library helps you perform calculation.
-                   DESC
+  spec.description  = "This will be test description for inmplememting pod file."
 
   spec.homepage     = "https://github.com/jeantimex/SwiftyLib"
   spec.license      = { :type => "MIT", :file => "LICENSE" }
