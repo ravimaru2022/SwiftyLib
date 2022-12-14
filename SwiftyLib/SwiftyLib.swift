@@ -9,6 +9,7 @@ import Foundation
 open class SwiftyLib {
     
     public static let shared = SwiftyLib()
+    public init() {}
 
     let name = "SwiftyLib"
     
