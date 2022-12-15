@@ -10,6 +10,11 @@
 		265E11682949A3F000E92DCC /* SwiftyLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 265E11672949A3F000E92DCC /* SwiftyLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		265E116F2949A42700E92DCC /* SwiftyLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265E116E2949A42700E92DCC /* SwiftyLib.swift */; };
 		26836A81294AEABB008CA2FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26836A80294AEABB008CA2FA /* Assets.xcassets */; };
+		26836A89294AF90A008CA2FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26836A88294AF90A008CA2FA /* AppDelegate.swift */; };
+		26836A8D294AF90A008CA2FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26836A8C294AF90A008CA2FA /* ViewController.swift */; };
+		26836A90294AF90A008CA2FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26836A8E294AF90A008CA2FA /* Main.storyboard */; };
+		26836A92294AF90C008CA2FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26836A91294AF90C008CA2FA /* Assets.xcassets */; };
+		26836A95294AF90C008CA2FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26836A93294AF90C008CA2FA /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,10 +22,24 @@
 		265E11672949A3F000E92DCC /* SwiftyLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftyLib.h; sourceTree = "<group>"; };
 		265E116E2949A42700E92DCC /* SwiftyLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyLib.swift; sourceTree = "<group>"; };
 		26836A80294AEABB008CA2FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26836A86294AF90A008CA2FA /* SLEx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLEx.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26836A88294AF90A008CA2FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26836A8C294AF90A008CA2FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		26836A8F294AF90A008CA2FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		26836A91294AF90C008CA2FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26836A94294AF90C008CA2FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26836A96294AF90C008CA2FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		265E11612949A3F000E92DCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26836A83294AF90A008CA2FA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -34,6 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				265E11662949A3F000E92DCC /* SwiftyLib */,
+				26836A87294AF90A008CA2FA /* SLEx */,
 				265E11652949A3F000E92DCC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -42,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				265E11642949A3F000E92DCC /* SwiftyLib.framework */,
+				26836A86294AF90A008CA2FA /* SLEx.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -49,11 +70,24 @@
 		265E11662949A3F000E92DCC /* SwiftyLib */ = {
 			isa = PBXGroup;
 			children = (
-				265E11672949A3F000E92DCC /* SwiftyLib.h */,
 				265E116E2949A42700E92DCC /* SwiftyLib.swift */,
 				26836A80294AEABB008CA2FA /* Assets.xcassets */,
+				265E11672949A3F000E92DCC /* SwiftyLib.h */,
 			);
 			path = SwiftyLib;
+			sourceTree = "<group>";
+		};
+		26836A87294AF90A008CA2FA /* SLEx */ = {
+			isa = PBXGroup;
+			children = (
+				26836A88294AF90A008CA2FA /* AppDelegate.swift */,
+				26836A8C294AF90A008CA2FA /* ViewController.swift */,
+				26836A8E294AF90A008CA2FA /* Main.storyboard */,
+				26836A91294AF90C008CA2FA /* Assets.xcassets */,
+				26836A93294AF90C008CA2FA /* LaunchScreen.storyboard */,
+				26836A96294AF90C008CA2FA /* Info.plist */,
+			);
+			path = SLEx;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -88,6 +122,23 @@
 			productReference = 265E11642949A3F000E92DCC /* SwiftyLib.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		26836A85294AF90A008CA2FA /* SLEx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26836A97294AF90C008CA2FA /* Build configuration list for PBXNativeTarget "SLEx" */;
+			buildPhases = (
+				26836A82294AF90A008CA2FA /* Sources */,
+				26836A83294AF90A008CA2FA /* Frameworks */,
+				26836A84294AF90A008CA2FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SLEx;
+			productName = SLEx;
+			productReference = 26836A86294AF90A008CA2FA /* SLEx.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -95,11 +146,15 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
 					265E11632949A3F000E92DCC = {
 						CreatedOnToolsVersion = 14.1;
 						LastSwiftMigration = 1410;
+					};
+					26836A85294AF90A008CA2FA = {
+						CreatedOnToolsVersion = 14.1;
 					};
 				};
 			};
@@ -117,6 +172,7 @@
 			projectRoot = "";
 			targets = (
 				265E11632949A3F000E92DCC /* SwiftyLib */,
+				26836A85294AF90A008CA2FA /* SLEx */,
 			);
 		};
 /* End PBXProject section */
@@ -127,6 +183,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				26836A81294AEABB008CA2FA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26836A84294AF90A008CA2FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26836A95294AF90C008CA2FA /* LaunchScreen.storyboard in Resources */,
+				26836A92294AF90C008CA2FA /* Assets.xcassets in Resources */,
+				26836A90294AF90A008CA2FA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,7 +207,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		26836A82294AF90A008CA2FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26836A8D294AF90A008CA2FA /* ViewController.swift in Sources */,
+				26836A89294AF90A008CA2FA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		26836A8E294AF90A008CA2FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26836A8F294AF90A008CA2FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		26836A93294AF90C008CA2FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26836A94294AF90C008CA2FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		265E11692949A3F000E92DCC /* Debug */ = {
@@ -329,6 +423,60 @@
 			};
 			name = Release;
 		};
+		26836A98294AF90C008CA2FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SLEx/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ravi.SLEx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26836A99294AF90C008CA2FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SLEx/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ravi.SLEx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -346,6 +494,15 @@
 			buildConfigurations = (
 				265E116C2949A3F000E92DCC /* Debug */,
 				265E116D2949A3F000E92DCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26836A97294AF90C008CA2FA /* Build configuration list for PBXNativeTarget "SLEx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26836A98294AF90C008CA2FA /* Debug */,
+				26836A99294AF90C008CA2FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
