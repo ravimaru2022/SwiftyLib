@@ -23,6 +23,9 @@ open class SwiftyLib {
     }
     
     public func loadImage() -> UIImage? {
-        return UIImage(named: "image.png")
+        let image = UIImage(named: "image",
+                            in: Bundle(for: type(of:self)),
+                            compatibleWith: nil)
+        return image
     }
 }
