@@ -36,4 +36,9 @@ open class SwiftyLib {
         return self.successIcon
     }
     
+    /*public class func getImage() -> UIImage? {
+      let bundle = NSBundle(forClass: self)
+      return UIImage(named: "image", inBundle: bundle, compatibleWithTraitCollection: nil)
+    }*/
+
 }
