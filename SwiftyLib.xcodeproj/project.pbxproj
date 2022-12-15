@@ -9,14 +9,14 @@
 /* Begin PBXBuildFile section */
 		265E11682949A3F000E92DCC /* SwiftyLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 265E11672949A3F000E92DCC /* SwiftyLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		265E116F2949A42700E92DCC /* SwiftyLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265E116E2949A42700E92DCC /* SwiftyLib.swift */; };
-		26836A7E294AE0D4008CA2FA /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 26836A7D294AE0D4008CA2FA /* image.png */; };
+		26836A81294AEABB008CA2FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26836A80294AEABB008CA2FA /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		265E11642949A3F000E92DCC /* SwiftyLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		265E11672949A3F000E92DCC /* SwiftyLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftyLib.h; sourceTree = "<group>"; };
 		265E116E2949A42700E92DCC /* SwiftyLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyLib.swift; sourceTree = "<group>"; };
-		26836A7D294AE0D4008CA2FA /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		26836A80294AEABB008CA2FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,7 +33,6 @@
 		265E115A2949A3F000E92DCC = {
 			isa = PBXGroup;
 			children = (
-				26836A7D294AE0D4008CA2FA /* image.png */,
 				265E11662949A3F000E92DCC /* SwiftyLib */,
 				265E11652949A3F000E92DCC /* Products */,
 			);
@@ -52,6 +51,7 @@
 			children = (
 				265E11672949A3F000E92DCC /* SwiftyLib.h */,
 				265E116E2949A42700E92DCC /* SwiftyLib.swift */,
+				26836A80294AEABB008CA2FA /* Assets.xcassets */,
 			);
 			path = SwiftyLib;
 			sourceTree = "<group>";
@@ -126,7 +126,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26836A7E294AE0D4008CA2FA /* image.png in Resources */,
+				26836A81294AEABB008CA2FA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
